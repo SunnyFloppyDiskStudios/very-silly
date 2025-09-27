@@ -1,0 +1,51 @@
+Project plans -- pseudocode
+
+___
+Import modules (time, system, json, etc.)
+
+Create a list of students, each with a name, age, grade, belt level, enrolled classes, and a fee. (Or load JSON)
+
+Set a timer variable to track execution time (default: off). User can change this to track it
+
+DEFINE a function to get search criteria:
+    - Ask the user to enter numbers corresponding to different filters (like name, age, etc.). numbers 1-6
+    - If the user enters "7", show a help message and exit.
+    - If the user enters "8", enable the execution timer.
+    - Ask for specific details based on the selected numbers (e.g., what name if "1" was chosen).
+    - Return the chosen criteria.
+
+function to display student details in a clear format. Listing out all the different info like name, age, belt, etc.
+
+function to show how long the search took if the timer is enabled.
+
+Ask for input alongside a list of available filters and their corresponding numbers.
+
+Ask the user which filters they want to use.
+If no filters are chosen, or if it's invalid, show an error and stop.
+
+Use the selected filters to search for matching students.
+
+Go through the list of students:
+    - If filtering by classes, check if they are enrolled in the specified ones.
+    - Check if all other selected details (like name or age) match.
+    - If a student meets all conditions, add them to the list of matches.
+
+If they aren't filtering classes, set passing to true
+
+If no students match, show an error and stop.
+If only one student matches, display their details.
+If multiple students match:
+    - Show their names.
+    - Ask the user which one they want to see (or if they want to see all).
+    - Display details for the selected student(s).
+
+___
+Extra notes:
+
+- During the code add protections because user might enter something lowercase (like a name) and it wouldn't fully match up.
+- Also if only one class matches and they have two classes, still show them because it's inclusive
+- Fee input does not require decimal (automatically assign it to float)
+- Automatically add "th" to age if the user doesn't put it because it's a club for teenagers and that is ideally grade 7th to 13th
+^ not including if user already put the "th", then dont do anything
+
+**Header file should contain more explanation about the script after being written**

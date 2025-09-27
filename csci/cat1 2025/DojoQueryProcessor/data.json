@@ -1,0 +1,17 @@
+﻿[
+    {"name": "Alice", "age": 15, "grade": "10th", "belt_level": "Black", "classes": ["Karate", "Judo"], "fee": 50.0},
+    {"name": "Bob", "age": 14, "grade": "9th", "belt_level": "Brown", "classes": ["Karate"], "fee": 45.0},
+    {"name": "Charlie", "age": 16, "grade": "11th", "belt_level": "Black", "classes": ["Judo"], "fee": 55.0},
+    {"name": "David", "age": 15, "grade": "10th", "belt_level": "Green", "classes": ["Karate", "Taekwondo"], "fee": 50.0},
+    {"name": "Eve", "age": 13, "grade": "8th", "belt_level": "Yellow", "classes": ["Judo"], "fee": 40.0},
+    {"name": "Frank", "age": 17, "grade": "12th", "belt_level": "Black", "classes": ["Karate", "Judo"], "fee": 60.0},
+    {"name": "Grace", "age": 14, "grade": "9th", "belt_level": "Blue", "classes": ["Taekwondo"], "fee": 45.0},
+    {"name": "Hannah", "age": 15, "grade": "10th", "belt_level": "Brown", "classes": ["Karate"], "fee": 50.0},
+    {"name": "Ian", "age": 16, "grade": "11th", "belt_level": "Green", "classes": ["Judo", "Taekwondo"], "fee": 55.0},
+    {"name": "Jack", "age": 13, "grade": "8th", "belt_level": "Yellow", "classes": ["Karate"], "fee": 40.0},
+    {"name": "Kara", "age": 17, "grade": "12th", "belt_level": "Black", "classes": ["Judo"], "fee": 60.0},
+    {"name": "Leo", "age": 14, "grade": "9th", "belt_level": "Blue", "classes": ["Karate", "Taekwondo"], "fee": 45.0},
+    {"name": "Mia", "age": 15, "grade": "10th", "belt_level": "Brown", "classes": ["Judo"], "fee": 50.0},
+    {"name": "Nina", "age": 16, "grade": "11th", "belt_level": "Green", "classes": ["Karate"], "fee": 55.0},
+    {"name": "Oscar", "age": 13, "grade": "8th", "belt_level": "Yellow", "classes": ["Taekwondo"], "fee": 40.0}
+]
